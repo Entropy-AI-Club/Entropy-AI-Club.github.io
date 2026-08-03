@@ -16,7 +16,7 @@ timeline — so the club's history is also, individually, everyone's history.
 ## How the club works
 
 - **Anyone can contribute.** Posts, resources, tools, prompts, projects and
-  meeting notes all live as plain files in [our GitHub repository](https://github.com/entropy-ai-club/entropy-ai-club.github.io) —
+  meeting notes all live as plain files in [our GitHub repository](https://github.com/Entropy-AI-Club/Entropy-AI-Club.github.io) —
   contribute via a pull request, or through the CMS at `/admin/` (which also
   opens a PR for review). Member roster changes are Git/PR only.
 - **Everything is attributed.** Content is linked to the member(s) who made
