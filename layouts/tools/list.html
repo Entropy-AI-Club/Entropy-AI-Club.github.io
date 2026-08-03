@@ -7,11 +7,11 @@
   {{ if .Pages }}
     <div class="card-grid">
       {{ range .Pages.ByDate.Reverse }}
-        <a class="card" href="{{ .RelPermalink }}">
-          <h3>{{ .Title }}</h3>
+        <article class="card">
+          <h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
           {{ with .Summary }}<p>{{ . | plainify }}</p>{{ end }}
           {{ partial "meta.html" . }}
-        </a>
+        </article>
       {{ end }}
     </div>
   {{ else }}
