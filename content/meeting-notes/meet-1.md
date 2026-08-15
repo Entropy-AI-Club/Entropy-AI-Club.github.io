@@ -19,4 +19,4 @@ attendees:
 
 Asymmetric Quantization - by Hemath
 
-1. ![](https://entropy-ai-club.github.io/images/uploads/asymmetric-quantization-handout.png "Asymmetric Quantization - handout")
+![](https://entropy-ai-club.github.io/images/uploads/asymmetric-quantization-handout.png "Asymmetric Quantization - handout")
