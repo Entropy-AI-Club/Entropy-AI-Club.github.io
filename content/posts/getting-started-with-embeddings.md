@@ -8,6 +8,7 @@ tags:
   - LLMs
 summary: What embeddings actually are, the math behind cosine similarity, and a
   minimal Python example.
+canonical_url: https://hemath.dev/blog/math/functions
 ---
 ## test change
 Embeddings map text (or images, or audio) into a vector space where semantic
