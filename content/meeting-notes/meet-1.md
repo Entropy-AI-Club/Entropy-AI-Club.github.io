@@ -11,8 +11,12 @@ attendees:
   - amilzith
 ---
 ## CLUB STUFF
+
 1. Renamed the club to "The Entropy AI Club" and discussed about the reason behind the naming.
-2. Introduced our Knowledgebase at high level.
+2. Introduced our Knowledge base at high level.
 
 ## TALKS
-Assymmetric Quantization - by Hemath
+
+Asymmetric Quantization - by Hemath
+
+1. ![](https://entropy-ai-club.github.io/images/uploads/asymmetric-quantization-handout.png "Asymmetric Quantization - handout")
