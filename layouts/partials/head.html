@@ -4,6 +4,11 @@
 <meta name="description" content="{{ with .Description }}{{ . }}{{ else }}{{ .Site.Params.description }}{{ end }}">
 <link rel="icon" href="data:,">
 <link rel="alternate" type="application/rss+xml" href="{{ "/index.xml" | absURL }}" title="{{ .Site.Title }}">
+{{- with .Params.canonical_url }}
+<link rel="canonical" href="{{ . }}">
+{{- else }}
+<link rel="canonical" href="{{ .Permalink }}">
+{{- end }}
 
 {{ with (resources.Get "css/chroma.css") }}
   {{ $chroma := . | resources.Minify | fingerprint }}

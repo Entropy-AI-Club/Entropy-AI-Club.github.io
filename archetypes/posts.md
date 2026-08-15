@@ -4,6 +4,7 @@ date: "{{ .Date }}"
 authors: []
 tags: []
 summary: ""
+canonical_url: ""
 draft: true
 ---
 

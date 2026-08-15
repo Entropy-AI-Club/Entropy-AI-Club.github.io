@@ -45,6 +45,7 @@ collections:
       - { label: "Authors", name: "authors", widget: "relation", collection: "members", file: "roster", search_fields: ["roster.*.name", "roster.*.nickname"], display_fields: ["roster.*.name"], value_field: "roster.*.slug", multiple: true }
       - { label: "Tags", name: "tags", widget: "list", field: { label: "Tag", name: "tag", widget: "string" }, required: false }
       - { label: "Summary", name: "summary", widget: "text", required: false, hint: "Shown in list pages and link previews." }
+      - { label: "Canonical URL", name: "canonical_url", widget: "string", required: false, hint: "If this post was originally published on your own blog, paste the original URL here. Search engines will treat that URL as the authoritative source and club members can visit the original." }
       - { label: "Body", name: "body", widget: "markdown" }
       - { label: "Draft", name: "draft", widget: "boolean", default: false, required: false }
 

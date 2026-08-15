@@ -4,6 +4,12 @@
     <h1>{{ .Title }}</h1>
     {{ partial "meta.html" . }}
   </div>
+  {{ with .Params.canonical_url }}
+  <aside class="canonical-notice">
+    This post was originally published on the author's blog.
+    <a href="{{ . }}" target="_blank" rel="canonical noopener noreferrer">Read the original article ↗</a>
+  </aside>
+  {{ end }}
   {{ .Content }}
   {{ with .Params.tags }}
     <ul class="tag-list">{{ range . }}<li class="badge"><a href="{{ printf "/tags/%s/" (. | urlize) | relLangURL }}">{{ . }}</a></li>{{ end }}</ul>
