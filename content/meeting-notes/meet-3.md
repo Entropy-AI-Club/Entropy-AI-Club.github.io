@@ -16,17 +16,21 @@ attendees:
 
 **Example card:**
 
-![]()
-
-
-
 ## TALK
 
 NP talked about building production-grade AI applications that involves better observability, best practices and design choices.
 
 \[TODO]: NP to upload all 5 handout as images.
 
+![](/images/uploads/why_we_need_rerankers.png)
 
+![](/images/uploads/mcp_got_better.png)
+
+![](/images/uploads/from_demo_to_production.png)
+
+![](/images/uploads/from_prototype_to_production.png)
+
+![](/images/uploads/ai_observbility_learning_loop.png)
 
 ## ACTION PLAN
 
